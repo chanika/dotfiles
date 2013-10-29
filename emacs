@@ -1,3 +1,6 @@
+(add-to-list 'load-path "git/elisp")
+(load-library "vt-funcs")
+
 (defun my-cc-style()
     (c-set-style "linux")
     (c-set-offset 'innamespace '0)
@@ -39,3 +42,4 @@
 	    		 '(2 "_NET_WM_STATE_MAXIMIZED_HORZ" 0))
 )
 (toggle-fullscreen)
+
