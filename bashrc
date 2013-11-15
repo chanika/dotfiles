@@ -115,7 +115,7 @@ fi
 
 #Added for VirtuTrace
 case "$(hostname)" in
-    gravity)
+    gravity | Hanika-Ubuntu)
         export VTROOT=$HOME/virtutrace
         ;;
     *)
