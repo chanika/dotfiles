@@ -32,6 +32,7 @@
  )
 
 (global-set-key "\C-m" 'newline-and-indent)
+(global-set-key (kbd "<f8>") 'shell)
 
 ;; Start emacs maximized
 (defun toggle-fullscreen ()
