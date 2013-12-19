@@ -4,5 +4,11 @@
 (load-library "modes")
 (load-library "vt-funcs")
 
+(require 'package)
+(add-to-list 'package-archives 
+	     '("melpa" . "http://melpa.milkbox.net/packages/") t)
+(package-initialize)
+
+
 
 
