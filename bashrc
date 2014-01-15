@@ -113,6 +113,15 @@ if ! shopt -oq posix; then
   fi
 fi
 
+###################
+# My custom stuff #
+###################
+
+# Aliases
+alias ll='ls -l'
+alias emacs='nohup emacs &'
+alias suspend='dbus-send --system --print-reply --dest="org.freedesktop.UPower" /org/freedesktop/UPower org.freedesktop.UPower.Suspend'
+
 #Added for VirtuTrace
 case "$(hostname)" in
     gravity | Hanika-Ubuntu)
