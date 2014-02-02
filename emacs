@@ -7,4 +7,5 @@
 (load-library "binds")
 (load-library "appearance")
 (load-library "modes")
+(load-library "helpers")
 (load-library "vt-funcs")
