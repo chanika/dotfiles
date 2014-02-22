@@ -123,7 +123,7 @@ alias suspend='dbus-send --system --print-reply --dest="org.freedesktop.UPower" 
 
 #Added for VirtuTrace
 case "$(hostname)" in
-    gravity | Hanika-Ubuntu)
+    gravity | lunar)
         export VTROOT=$HOME/virtutrace
         ;;
     *)
