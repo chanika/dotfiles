@@ -139,4 +139,4 @@ export LD_LIBRARY_PATH=$HOME/local/lib:$VTROOT/lib:/usr/lib:/usr/local/lib:/usr/
 export FLAGPOLL_PATH=$VTROOT/lib/flagpoll:$VTROOT/lib64/flagpoll:$VTROOT/share/flagpoll:$HOME/local/lib/flagpoll:$HOME/local/share/flagpoll:/usr/local/lib/flagpoll:/usr/local/lib/flagpoll:/usr/local/share/flagpoll:/usr/local/lib64/flagpoll
 export PATH=$HOME/local/bin:$VTROOT/bin:$PATH
 export OSGHOME=$VTROOT
-export VTDATA=$HOME/git/vtdata-afghan/
+export VTDATA=$HOME/git/vtdata-dm/
