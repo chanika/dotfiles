@@ -118,7 +118,7 @@ fi
 ###################
 
 # Aliases
-alias emacs='nohup emacs &'
+alias emacs='emacs &'
 alias suspend='dbus-send --system --print-reply --dest="org.freedesktop.UPower" /org/freedesktop/UPower org.freedesktop.UPower.Suspend'
 
 #Added for VirtuTrace

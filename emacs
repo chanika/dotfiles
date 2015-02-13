@@ -10,7 +10,7 @@
 
 (require 'use-package)
 
-(add-to-list 'load-path "git/elisp")
+(add-to-list 'load-path "~/git/elisp")
 (load-library "binds")
 (load-library "appearance")
 (load-library "modes")
