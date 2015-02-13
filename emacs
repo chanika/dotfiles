@@ -3,6 +3,13 @@
      '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (package-initialize)
 
+(if (not (package-installed-p 'use-package))
+    (progn
+      (package-refresh-contents)
+      (package-install 'use-package)))
+
+(require 'use-package)
+
 (add-to-list 'load-path "git/elisp")
 (load-library "binds")
 (load-library "appearance")
