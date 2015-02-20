@@ -11,8 +11,8 @@
 (require 'use-package)
 
 (add-to-list 'load-path "~/git/elisp")
-(load-library "binds")
 (load-library "appearance")
 (load-library "modes")
 (load-library "helpers")
 (load-library "vt-funcs")
+(load-library "binds")
