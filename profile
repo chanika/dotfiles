@@ -20,6 +20,3 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
-
-# load key remapping
-xmodmap ~/.xmodmap
